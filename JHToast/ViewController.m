@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 
+- (IBAction)showToast:(id)sender;
 @end
 
 @implementation ViewController
@@ -24,4 +25,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)showToast:(id)sender {
+    [JHToast showWithText:@"This is a toast" bottomOffset:100.0f duration:3.5f];
+}
 @end

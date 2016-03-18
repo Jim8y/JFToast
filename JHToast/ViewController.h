@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JHToast.h"
 
 @interface ViewController : UIViewController
 

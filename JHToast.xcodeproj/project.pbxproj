@@ -16,6 +16,7 @@
 		5B5DE8FF1C9BA9EE00B6432D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5DE8FD1C9BA9EE00B6432D /* LaunchScreen.storyboard */; };
 		5B5DE90A1C9BA9EE00B6432D /* JHToastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5DE9091C9BA9EE00B6432D /* JHToastTests.m */; };
 		5B5DE9151C9BA9EE00B6432D /* JHToastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5DE9141C9BA9EE00B6432D /* JHToastUITests.m */; };
+		5B5DE9241C9BAA4900B6432D /* JHToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5DE9231C9BAA4900B6432D /* JHToast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5B5DE9101C9BA9EE00B6432D /* JHToastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHToastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5DE9141C9BA9EE00B6432D /* JHToastUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHToastUITests.m; sourceTree = "<group>"; };
 		5B5DE9161C9BA9EE00B6432D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B5DE9221C9BAA4900B6432D /* JHToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHToast.h; sourceTree = "<group>"; };
+		5B5DE9231C9BAA4900B6432D /* JHToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHToast.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 		5B5DE8EB1C9BA9EE00B6432D /* JHToast */ = {
 			isa = PBXGroup;
 			children = (
+				5B5DE9251C9BAA4E00B6432D /* JHToast */,
 				5B5DE8EF1C9BA9EE00B6432D /* AppDelegate.h */,
 				5B5DE8F01C9BA9EE00B6432D /* AppDelegate.m */,
 				5B5DE8F21C9BA9EE00B6432D /* ViewController.h */,
@@ -141,6 +145,15 @@
 				5B5DE9161C9BA9EE00B6432D /* Info.plist */,
 			);
 			path = JHToastUITests;
+			sourceTree = "<group>";
+		};
+		5B5DE9251C9BAA4E00B6432D /* JHToast */ = {
+			isa = PBXGroup;
+			children = (
+				5B5DE9221C9BAA4900B6432D /* JHToast.h */,
+				5B5DE9231C9BAA4900B6432D /* JHToast.m */,
+			);
+			name = JHToast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B5DE9241C9BAA4900B6432D /* JHToast.m in Sources */,
 				5B5DE8F41C9BA9EE00B6432D /* ViewController.m in Sources */,
 				5B5DE8FA1C9BA9EE00B6432D /* JHToast.xcdatamodeld in Sources */,
 				5B5DE8F11C9BA9EE00B6432D /* AppDelegate.m in Sources */,
