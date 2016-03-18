@@ -17,3 +17,4 @@ when you complete downloading you will find a folder named JFToast
 drag this folder into your project 
 
 then enjoy the toast.
+![image](https://github.com/Liaojinghui/JFToast/tree/master/JHToast/Screen Shot 2016-03-18 at 11.33.18 AM.png)
