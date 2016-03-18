@@ -8,3 +8,4 @@ import JHToast.h in your view controller, then use :
 [JHToast showWithText:@"This is a toast" bottomOffset:100.0f duration:3.5f];
 to add a JHToast.
 
+![ABC](http://www.baidu.com/img/bdlogo.gif) 
